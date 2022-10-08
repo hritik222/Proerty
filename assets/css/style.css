@@ -1,0 +1,622 @@
+/*css reset*/
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+
+#section-1 {
+    background: rgb(0 0 0 / 52%) url(../images/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-blend-mode: darken;
+    position: relative;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 7px;
+}
+
+.logo {
+    width: 11%;
+    margin-right: 35px;
+    padding-right: 12px;
+}
+
+.logo img {
+    width: 100%;
+    filter: invert(1);
+}
+.navi {
+    width: 85%;
+    height: 20%;
+    padding: 14px 11px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.navi ul li a{
+    font-size: 15px;
+    color: #000000; 
+    font-weight: 600;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.navi ul li a:hover{
+    color: #036e60;
+}
+.navi ul li a .active-link{
+    color: #036e60;
+}
+.navi ul li a:active {
+    color: #19bfa9 !important;
+}
+.navi ul li a:link{
+    color: #036e60;
+}
+
+.call-icon{
+    position: absolute;
+    left: -15px;
+    color: #04ab95;
+}
+
+.navi-btn {
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #04ab95;
+    padding: 2px 6px;
+}
+.navi-btn:hover{
+    background-color: #036e60;
+    color: #fff;
+}
+
+.navi-btn a{
+    color: #fff !important;
+    font-weight: 400 !important;
+}
+
+/* Banner css */
+
+.banner-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 80px;
+    padding-left: 32px;
+}
+
+.heading {
+    color: #fff;
+    font-size: 60px;
+    line-height: 75px;
+    word-spacing: 2px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 22px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.pera {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.BookBtn {
+    color: #fff;
+    background-color:  #048171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Baloo Bhaina 2', cursive;
+    padding: 10px 35px;
+    border-radius: 0px;
+    border: 1px solid #ffffff8a;
+    transition: ease-in;
+    margin-top: 15px;
+    position: relative;
+}
+
+.booking-Arrow {
+    position: absolute;
+    left: 10px;
+    color: #fff;
+}
+
+.BookBtn:hover{
+    background-color:#036e60 ;
+}
+
+.dropBx{
+    margin-top: 40px;
+}
+
+.bar {
+    color: #e7e3e3;
+    font-size: 14px;
+    background-color: #696a70;
+    font-weight: 400;
+    margin: 15px 52px;
+    padding: 9px 0px;
+}
+
+.Mbar{
+    color: #e7e3e3;
+    font-size: 14px;
+    /* background-color: #626262; */
+    font-weight: 400;
+    margin: 15px 52px;
+    padding: 9px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+    ;
+}
+
+.mtTxt {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.range {
+    width: 280px;
+}
+
+.Searchbtn {
+    color: #fff;
+    background-color: #036e60;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+    transition: ease-in;
+    width: 130px;
+    text-transform: uppercase;
+    margin-left: 174px;
+}
+
+/* section 1st end here */
+
+#our-section {
+    background: #d3d3d357;
+    width: 100%;
+    margin-top: 230px;
+    padding-bottom: 30px;
+}
+
+.txtBx {
+    color: darkslategrey;
+    margin-bottom: 35px;
+}
+.txtBx h1 {
+    font-weight: 600;
+}
+hr.h2bottomline {
+    margin: 0px;
+    border-bottom: 2px solid darkslategray;
+    opacity: 1;
+    border-radius: 8px;
+    width: 80px;
+    margin-left: 42%;
+}
+
+.row.imgRow {
+    /* border: 2px solid red; */
+    padding: 0px 50px;
+}
+
+.col.imgBx {
+    /* border: 2px solid #bdb0b2; */
+    margin: 0px 10px 10px 10px;
+    height: 200px;
+    padding: 0px;
+    position: relative;
+}
+
+.imgBx img {
+    width: 100%;
+    height: 100%;
+}
+
+.imgBx::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    background-color: #000000;
+    opacity: 0.6;
+    height: 100%;
+}
+
+.imgtxt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    color: #fff;
+}
+.imgtxt p{
+    text-align: center;
+}
+
+                            /* our rent section start here  */
+
+section#our-rent {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content {
+    border: 1px solid lightgray;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+}
+
+.imgBox {
+    position: relative;
+}
+.imgBox img {
+    width: 100%;
+}
+.highTxt {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+    padding: 5px 15px;
+    margin-top: 5px;
+}
+span.htxt1 {
+    background: #ff6f09;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+span.htxt2 {
+    background: #319724;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.txt {
+    padding: 20px 20px 0px 20px;
+}
+.txt p:nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.txt p:nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: lightgray;
+    margin-bottom: 0px;
+}
+.iconBx {
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    color: #b9b9b9;
+    border-bottom: 1px solid lightgray;
+}
+.icons {
+    display: flex !important;
+    align-items: center;
+    margin-right: 5px;
+}
+.icons p {
+    font-size: 12px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.amount-Bx {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.amount-text {
+    width: 50%;
+    display: flex;
+}
+
+.amount-text p {
+    margin: 0px;
+    padding-right: 6px;
+    font-size: 16px;
+    color: #000000;
+}
+.amount-text p:nth-child(2) {
+    margin: 0px;
+    padding-right: 6px;
+    font-size: 16px;
+    color: darkgray;
+}
+.amount-icons span {
+    font-weight: 600;
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 20px;
+    color: darkslategray;
+}
+
+/* our rent end here */
+
+section#Buy {
+    background: #f0f0f0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.buyHeading {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buyHeading h1 {
+    border-bottom: 2px solid darkslategrey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+.houseBx {
+    width: 100%;
+    background-color: #fff;
+}
+.houseImg {
+    position: relative;
+    background-size: cover;
+}
+.houseImg img{
+    width: 100%;
+}
+.priceTxt {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: #04ab95bf;
+    padding: 10px 35px;
+}
+.priceTxt p {
+    margin: 0px;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+.discripaton {
+    padding-left: 25px;
+}
+.sText p {
+    margin: 0px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: #2eab9e;
+}
+
+.addlocTxt {
+    display: flex;
+}
+.locIcons span {
+    color: #35b2a3;
+    font-size: 35px;
+    margin-right: 5px;
+    margin-left: -5px;
+}
+.addTxt{
+    padding: 2px;
+}
+.addTxt h4 {
+    font-size: 22px;
+    margin: -5px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: #000;
+}
+.addTxt p {
+    margin: 0px;
+    color: darkgray;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+.iconBx {
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    color: #b9b9b9;
+    border-bottom: 1px solid lightgray;
+}
+.icons {
+    display: flex !important;
+    align-items: center;
+    margin-right: 5px;
+}
+
+#testimonial{
+    padding: 30px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.Testicontent {
+    width: 100%;
+    padding: 30px 30px;
+}
+.image {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.image img {
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+    margin-top: 15px;
+}
+.text h1 q {
+    color: #051730;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.rateIcon {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.rateIcon .fa-solid {
+    color: #ff7600;
+}
+.testiText {
+    text-align: center;
+    padding: 0px 35px;
+    line-height: 25px;
+    color: gray;
+    font-size: 14px;
+    font-family: sans-serif;
+} 
+.custmerN {
+    text-align: center;
+    margin-top: 25px;
+}
+.custmerN h1 {
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    font-family: inherit;
+}
+.custmerN h1:nth-child(2) {
+    color: gray;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+}
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    box-shadow: 1px 1px 4px 0px #c5c3c3;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-arrow span:hover {
+    color: #ff7600;
+    transition: 0.5s;
+}
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    box-shadow: 1px 1px 4px 0px #c5c3c3;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-arrow span:hover {
+    color: #ff7600;
+    transition: 0.5s;
+}
+
+/* footer is here */
+
+#footer{
+    background-color: #000;
+}
+
+.-footer-logo {
+    width: 70%;
+    padding: 30px;
+    text-align: left;
+}
+.-footer-logo img {
+    width: 130px;
+    filter: invert(1);
+}
+.company{
+    color: #fff;
+}
+.company ul{
+    list-style: none;
+}
+.Service ul{
+    list-style: none;
+}
+
+.Service{
+    color: #fff;
+}
+
+.contact{
+    color: #fff;
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+}
+.footerLine {
+    border-top: 1px solid #fff;
+    width: 91%;
+    margin: auto;
+    color: #fff;
+}
+.footerLine h1 {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px 0px;
+    margin: 0px;
+}
